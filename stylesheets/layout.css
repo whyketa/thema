@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "ThemaCy", "ThemaStd";
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+}
+#index p {
+  font-family: "Inter";
+  font-size: 35px;
+  line-height: 110%;
+  /*margin: 0;
+  padding: 0;*/
+}
+#index h1 {
+  font-size: 180px;
+  font-weight: 700;
+  font-style: italic;
+  color: #f4719d;
+  -webkit-text-stroke: 5px black;
+  position: absolute;
+  top: 111px;
+  left: 461px;
+  /*margin: 0;
+  padding: 0;*/
+}
+#index h2 {
+  font-size: 85px;
+  /*margin: 0;
+  padding: 0;*/
+}
+#index h3 {
+  font-size: 65px;
+  /*margin: 0;
+  padding: 0;*/
+}
+#index h4 {
+  font-size: 40px;
+  color: #ffffff;
+  /*margin: 0;
+  padding: 0;*/
+}
+/*секции*/
+.FirstSection {
+  background: url(../images/firstpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  position: relative;
+}
+.SecondSection {
+  background: url(../images/secondpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.ThirdSection {
+  background: url(../images/thirdpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.FourthSection {
+  background: url(../images/fourthpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.FifthSection {
+  background: url(../images/fifthpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.SixthSection {
+  background: url(../images/sixthpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.SeventhSection {
+  background: url(../images/seventhpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.EighthSection {
+  background: url(../images/eighthpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.NinthSection {
+  background: url(../images/ninthpage.png);
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+}
+.footer {
+  background: url(../images/footer.png);
+  background-size: cover;
+  width: 1440px;
+  height: 473px;
+  display: flex;
+}
+.page-title {
+  position: absolute;
+  top: 725px;
+  left: 650px;
+}
+.font-title {
+  position: absolute;
+  top: 250px;
+  left: 188px;
+  font-weight: 700;
+  font-style: italic;
+  -webkit-text-stroke: 3px black;
+  color: #fec7e4;
+  -webkit-text-stroke: 3px rgb(255, 255, 255);
+}
+.header-facts,
+.header-numbers,
+.authors {
+  color: #fec7e4;
+  -webkit-text-stroke: 3px black;
+}
+.authors {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 385px;
+  margin-left: 200px;
+}
+.header-facts {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 99px;
+  margin-left: 191px;
+}
+.header-numbers {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 99px;
+  margin-left: 914px;
+}
+.header-year,
+.header-langs,
+.langs_15,
+.langs_275,
+.header_glyphs {
+  color: #ffffff;
+  -webkit-text-stroke: 3px black;
+}
+.header-year {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 237px;
+  margin-left: 250px;
+}
+.header-langs {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 136px;
+  margin-left: 866px;
+}
+.langs_15 {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 261px;
+  margin-left: 923px;
+}
+.langs_275 {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 502px;
+  margin-left: 892px;
+}
+.header_glyphs {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 114px;
+  margin-left: 904px;
+}
+.name_nikola,
+.name_iliya {
+  text-wrap: nowrap;
+  color: #008ab1;
+}
+.name_nikola {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 484px;
+  margin-left: 207px;
+}
+.name_iliya {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 532px;
+  margin-left: 207px;
+}
+.header-support,
+.glyphs_1500,
+.glyphs_sistem {
+  color: #ffffff;
+}
+.header-support {
+}
+.glyphs_1500 {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 220px;
+  margin-left: 989px;
+}
+.glyphs_sistem {
+  width: 634px;
+  height: 117px;
+  text-align: center;
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 415px;
+  margin-left: 754px;
+}
+.text-light {
+  font-weight: 300;
+  font-style: normal;
+}
+.text-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+.text-medium {
+  font-weight: 500;
+  font-style: normal;
+}
+.text-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+.text-light_it {
+  font-weight: 300;
+  font-style: italic;
+}
+.text-regular_it {
+  font-weight: 400;
+  font-style: italic;
+}
+.text-medium_it {
+  font-weight: 500;
+  font-style: italic;
+}
+.text-bold_it {
+  font-weight: 700;
+  font-style: italic;
+}
+.numbers_1 {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 253px;
+  margin-left: 832px;
+}
+.numbers_2 {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 380px;
+  margin-left: 894px;
+}
+.numbers_3 {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 515px;
+  margin-left: 775px;
+}
+.numbers_4 {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 645px;
+  margin-left: 907px;
+}
+.footer_name_darina {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 91px;
+  margin-left: 701px;
+}
+.footer_name_kamila {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 250px;
+  margin-left: 789px;
+}
+.group {
+  color: #f882aa;
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 258px;
+  margin-left: 168px;
+}

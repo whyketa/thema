@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "ThemaCy";
+  src: url("../fonts/ThemaCy_Med.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThemaStd";
+  src: url("../fonts/ThemaStd_Bld.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThemaStd";
+  src: url("../fonts/ThemaStd_Med.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThemaStd";
+  src: url("../fonts/ThemaStd_Reg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThemaStd";
+  src: url("../fonts/ThemaStd_Lt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThemaStd";
+  src: url("../fonts/ThemaStd_Bld_Ita.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "ThemaStd";
+  src: url("../fonts/ThemaStd_Med_Ita.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "ThemaStd";
+  src: url("../fonts/ThemaStd_Reg_Ita.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "ThemaStd";
+  src: url("../fonts/ThemaStd_Lt_Ita.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
