@@ -10,6 +10,9 @@ body {
   -moz-font-smoothing: grayscale;
   background-color: #f8f8f8;
 }
+.index {
+  margin: 0 auto;
+}
 #index p {
   font-family: "Inter";
   font-size: 35px;
@@ -31,6 +34,7 @@ body {
 }
 #index h2 {
   font-size: 85px;
+  font-family: "ThemaStd";
   /*margin: 0;
   padding: 0;*/
 }
@@ -42,6 +46,7 @@ body {
 #index h4 {
   font-size: 40px;
   color: #ffffff;
+  font-family: "ThemaStd";
   /*margin: 0;
   padding: 0;*/
 }
@@ -53,6 +58,7 @@ body {
   height: 900px;
   display: flex;
   position: relative;
+  margin: 0 auto;
 }
 .SecondSection {
   background: url(../images/secondpage.png);
@@ -60,6 +66,7 @@ body {
   width: 1440px;
   height: 900px;
   display: flex;
+  margin: 0 auto;
 }
 .ThirdSection {
   background: url(../images/thirdpage.png);
@@ -67,6 +74,7 @@ body {
   width: 1440px;
   height: 900px;
   display: flex;
+  margin: 0 auto;
 }
 .FourthSection {
   background: url(../images/fourthpage.png);
@@ -74,6 +82,7 @@ body {
   width: 1440px;
   height: 900px;
   display: flex;
+  margin: 0 auto;
 }
 .FifthSection {
   background: url(../images/fifthpage.png);
@@ -81,6 +90,7 @@ body {
   width: 1440px;
   height: 900px;
   display: flex;
+  margin: 0 auto;
 }
 .SixthSection {
   background: url(../images/sixthpage.png);
@@ -88,6 +98,7 @@ body {
   width: 1440px;
   height: 900px;
   display: flex;
+  margin: 0 auto;
 }
 .SeventhSection {
   background: url(../images/seventhpage.png);
@@ -95,6 +106,7 @@ body {
   width: 1440px;
   height: 900px;
   display: flex;
+  margin: 0 auto;
 }
 .EighthSection {
   background: url(../images/eighthpage.png);
@@ -102,6 +114,7 @@ body {
   width: 1440px;
   height: 900px;
   display: flex;
+  margin: 0 auto;
 }
 .NinthSection {
   background: url(../images/ninthpage.png);
@@ -109,6 +122,7 @@ body {
   width: 1440px;
   height: 900px;
   display: flex;
+  margin: 0 auto;
 }
 .footer {
   background: url(../images/footer.png);
@@ -116,6 +130,7 @@ body {
   width: 1440px;
   height: 473px;
   display: flex;
+  margin: 0 auto;
 }
 .page-title {
   position: absolute;
@@ -227,6 +242,14 @@ body {
   color: #ffffff;
 }
 .header-support {
+  width: 621px;
+  height: 118px;
+  text-align: center;
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 330px;
+  margin-left: 735px;
 }
 .glyphs_1500 {
   position: absolute;
@@ -245,37 +268,137 @@ body {
   margin-top: 415px;
   margin-left: 754px;
 }
+.year {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 331px;
+  margin-left: 224px;
+}
+.cyrillic {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 375px;
+  margin-left: 917px;
+}
+.latin {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 610px;
+  margin-left: 912px;
+}
+.capitals {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 170px;
+  margin-left: 284px;
+}
+.drops {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 525px;
+  margin-left: 329px;
+}
+.serifs {
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 689px;
+  margin-left: 864px;
+}
+.support_text {
+  width: 622.47px;
+  height: 156px;
+  text-align: left;
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 110px;
+  margin-left: 125px;
+}
 .text-light {
   font-weight: 300;
   font-style: normal;
+  transform: rotate(-13.95deg);
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 155px;
+  margin-left: 335px;
 }
 .text-regular {
   font-weight: 400;
   font-style: normal;
+  transform: rotate(-12.64deg);
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 220px;
+  margin-left: 338px;
 }
 .text-medium {
   font-weight: 500;
   font-style: normal;
+  transform: rotate(-12.68deg);
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 295px;
+  margin-left: 350px;
 }
 .text-bold {
   font-weight: 700;
   font-style: normal;
+  transform: rotate(-15.26deg);
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 370px;
+  margin-left: 407px;
 }
 .text-light_it {
   font-weight: 300;
   font-style: italic;
+  transform: rotate(-12.45deg);
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 107px;
+  margin-left: 504px;
 }
 .text-regular_it {
   font-weight: 400;
   font-style: italic;
+  transform: rotate(-12.64deg);
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 170px;
+  margin-left: 509px;
 }
 .text-medium_it {
   font-weight: 500;
   font-style: italic;
+  transform: rotate(-14.27deg);
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 235px;
+  margin-left: 539px;
 }
 .text-bold_it {
   font-weight: 700;
   font-style: italic;
+  transform: rotate(-14.96deg);
+  position: absolute;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 320px;
+  margin-left: 551px;
 }
 .numbers_1 {
   position: absolute;
