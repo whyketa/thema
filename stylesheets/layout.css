@@ -1,3 +1,4 @@
+/*основные свойства и стили*/
 * {
   box-sizing: border-box;
 }
@@ -10,15 +11,13 @@ body {
   -moz-font-smoothing: grayscale;
   background-color: #f8f8f8;
 }
-:lang(en).index {
-  font-family: "ThemaStd";
-}
 #index p {
   font-family: "Inter";
   font-size: 35px;
   line-height: 110%;
 }
 #index h1 {
+  /*h1 используется лишь на главной странице*/
   font-family: "ThemaStd";
   font-size: 180px;
   font-weight: 700;
@@ -27,10 +26,14 @@ body {
   position: absolute;
   margin-top: 80px;
   margin-left: 460px;
+  -webkit-text-stroke: 7px black;
+  paint-order: stroke fill;
 }
 #index h2 {
   font-size: 85px;
   font-family: "ThemaStd";
+  -webkit-text-stroke: 5px black;
+  paint-order: stroke fill;
 }
 #index h3 {
   font-size: 65px;
@@ -40,7 +43,7 @@ body {
   color: #ffffff;
   font-family: "ThemaStd";
 }
-/*секции*/
+/*секции-экраны*/
 .FirstSection {
   background: url(../images/firstpage.png);
   background-size: cover;
@@ -122,6 +125,28 @@ body {
   display: flex;
   margin: 0 auto;
 }
+/*назначение отдельных стилей*/
+.header-facts,
+.header-numbers,
+.authors {
+  color: #fec7e4;
+}
+.header-year,
+.header-langs,
+.langs_15,
+.langs_275,
+.header_glyphs,
+.header-support,
+.glyphs_1500,
+.glyphs_sistem {
+  color: #ffffff;
+}
+.name_nikola,
+.name_iliya {
+  text-wrap: nowrap;
+  color: #008ab1;
+}
+/*расстановка элементов*/
 .page-title {
   position: absolute;
   top: 725px;
@@ -134,16 +159,34 @@ body {
   font-weight: 700;
   font-style: italic;
   color: #fec7e4;
-}
-.header-facts,
-.header-numbers,
-.authors {
-  color: #fec7e4;
+  -webkit-text-stroke: 5px rgb(255, 255, 255);
+  paint-order: stroke fill;
 }
 .authors {
   position: absolute;
   margin-top: 385px;
   margin-left: 200px;
+}
+.screen_1 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 91.6%;
+  width: 100px;
+  height: 20px;
+  transform: rotate(21.86deg);
+  position: absolute;
+  margin-top: 228px;
+  margin-left: 1020px;
+}
+.name_nikola {
+  position: absolute;
+  margin-top: 484px;
+  margin-left: 207px;
+}
+.name_iliya {
+  position: absolute;
+  margin-top: 532px;
+  margin-left: 207px;
 }
 .header-facts {
   position: absolute;
@@ -155,16 +198,6 @@ body {
   position: absolute;
   margin-top: 99px;
   margin-left: 914px;
-}
-.header-year,
-.header-langs,
-.langs_15,
-.langs_275,
-.header_glyphs,
-.header-support,
-.glyphs_1500,
-.glyphs_sistem {
-  color: #ffffff;
 }
 .header-year {
   position: absolute;
@@ -190,21 +223,6 @@ body {
   position: absolute;
   margin-top: 114px;
   margin-left: 904px;
-}
-.name_nikola,
-.name_iliya {
-  text-wrap: nowrap;
-  color: #008ab1;
-}
-.name_nikola {
-  position: absolute;
-  margin-top: 484px;
-  margin-left: 207px;
-}
-.name_iliya {
-  position: absolute;
-  margin-top: 532px;
-  margin-left: 207px;
 }
 .header-support {
   width: 621px;
@@ -365,69 +383,4 @@ body {
   position: absolute;
   margin-top: 258px;
   margin-left: 168px;
-}
-/*настройка обводок*/
-.overlay-image_thema {
-  position: absolute;
-  z-index: 10;
-  margin-top: 108px;
-  margin-left: 462px;
-  width: 582px;
-  height: 123px;
-}
-.overlay-image_font {
-  position: absolute;
-  z-index: 10;
-  margin-top: 257px;
-  margin-left: 177px;
-  width: 154px;
-  height: 85px;
-}
-.overlay-image_facts {
-  position: absolute;
-  z-index: 10;
-  margin-top: 105px;
-  margin-left: 190px;
-  width: 770px;
-  height: 67px;
-}
-.overlay-image_2012 {
-  position: absolute;
-  z-index: 10;
-  margin-top: 265px;
-  margin-left: 251px;
-  width: 152px;
-  height: 43px;
-}
-.overlay-image_authors {
-  position: absolute;
-  z-index: 10;
-  margin-top: 394px;
-  margin-left: 197px;
-  width: 288px;
-  height: 85px;
-}
-.overlay-image_numbers {
-  position: absolute;
-  z-index: 10;
-  margin-top: 105px;
-  margin-left: 913px;
-  width: 311px;
-  height: 78px;
-}
-.overlay-image_15 {
-  position: absolute;
-  z-index: 10;
-  margin-top: 288px;
-  margin-left: 922px;
-  width: 74px;
-  height: 60px;
-}
-.overlay-image_275 {
-  position: absolute;
-  z-index: 10;
-  margin-top: 530px;
-  margin-left: 890px;
-  width: 115px;
-  height: 60px;
 }
