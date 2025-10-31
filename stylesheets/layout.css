@@ -32,8 +32,6 @@ body {
 #index h2 {
   font-size: 85px;
   font-family: "ThemaStd";
-  -webkit-text-stroke: 5px black;
-  paint-order: stroke fill;
 }
 #index h3 {
   font-size: 65px;
@@ -130,6 +128,8 @@ body {
 .header-numbers,
 .authors {
   color: #fec7e4;
+  -webkit-text-stroke: 5px black;
+  paint-order: stroke fill;
 }
 .header-year,
 .header-langs,
@@ -140,6 +140,14 @@ body {
 .glyphs_1500,
 .glyphs_sistem {
   color: #ffffff;
+}
+.header-facts,
+.header-langs,
+.langs_15,
+.langs_275,
+.header-year {
+  -webkit-text-stroke: 5px rgb(0, 0, 0);
+  paint-order: stroke fill;
 }
 .name_nikola,
 .name_iliya {
@@ -166,17 +174,6 @@ body {
   position: absolute;
   margin-top: 385px;
   margin-left: 200px;
-}
-.screen_1 {
-  color: #ffffff;
-  font-size: 20px;
-  line-height: 91.6%;
-  width: 100px;
-  height: 20px;
-  transform: rotate(21.86deg);
-  position: absolute;
-  margin-top: 228px;
-  margin-left: 1020px;
 }
 .name_nikola {
   position: absolute;
@@ -223,6 +220,8 @@ body {
   position: absolute;
   margin-top: 114px;
   margin-left: 904px;
+  -webkit-text-stroke: 5px black;
+  paint-order: stroke fill;
 }
 .header-support {
   width: 621px;
